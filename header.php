@@ -56,6 +56,7 @@
                         <li><a class="nav-item" href="#">Another action</a></li>
                         <li><a class="nav-item" href="#">Something else here</a></li>
                     </ul>
+                    <!-- dynamic menu -->
                 </div>
             </div>
         </header>
