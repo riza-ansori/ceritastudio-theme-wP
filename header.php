@@ -51,12 +51,13 @@
             </div>
             <div class="wrap-full-menu">
                 <div class="container">
-                    <ul class="list-menu">
-                        <li><a class="nav-item" href="#">Action</a></li>
-                        <li><a class="nav-item" href="#">Another action</a></li>
-                        <li><a class="nav-item" href="#">Something else here</a></li>
-                    </ul>
-                    <!-- dynamic menu -->
+                    <?php 
+                        wp_nav_menu( array( 
+                            'theme_location' => 'primary', 
+                            'menu_class' => 'list-menu',
+                            'container_class' => 'my_css_class' 
+                        ) ); 
+                    ?>
                 </div>
             </div>
         </header>
