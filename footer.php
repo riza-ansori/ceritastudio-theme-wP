@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </footer>
         
         <div id="to-top">
