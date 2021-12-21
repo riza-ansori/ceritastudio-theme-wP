@@ -8,7 +8,7 @@ h1 {
 }
 .btn-primary {
     border-radius: 8px;
-    padding: 20px 32px; 
+    padding: 15px 30px; 
     font-size: 20px;
     font-weight: 700;
     border: 2px solid #707070;
@@ -112,7 +112,7 @@ header.navbar {
 .list-menu li:last-child {
     margin-right: 0;
 }
-.nav-item {
+.list-menu li a {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
@@ -129,6 +129,13 @@ header.navbar {
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
+}
+.footer-content {
+    padding: 30px;
+    background: rgba(255,255,255, .8);
+}
+.footer-content p {
+    font-size: 20px;
 }
 
 div#to-top {
