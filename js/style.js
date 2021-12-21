@@ -3,6 +3,7 @@ $(document).ready(function(){
         e.preventDefault();
         $("span").toggleClass("span-clicked");
         $(".wrap-full-menu").toggleClass("menu-expand");
+        $("header.navbar").toggleClass("bg-transparent");
     });
     // btn scroll
     var scroll_start = 0;
